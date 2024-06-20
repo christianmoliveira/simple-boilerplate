@@ -1,0 +1,16 @@
+{
+  "minimum-stability": "stable",
+  "autoload": {
+    "files": [
+      "src/functions/helpers.php",
+      "src/functions/router.php",
+      "src/functions/validate.php",
+      "src/functions/flash.php",
+      "src/functions/email.php",
+      "src/functions/database.php"
+    ]
+  },
+  "require": {
+    "phpmailer/phpmailer": "^6.9"
+  }
+}
